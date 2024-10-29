@@ -26,10 +26,10 @@
             <p class="description">-Indoor Use Only</p>
         </div>
     </div>
-    <button class="btn">Add To Cart</button>
-    <div class="overlay">
+    <button class="btn" onclick="openModel()">Add To Cart</button>
+    <div class="overlay" id="overlay">
         <div class="modal">
-            <img src="close.png" class="close-icon">
+            <img src="close.png" class="close-icon" onclick="closeModel()">
             <h1 style="color: #662000; text-align: center;">Add To Cart</h1>
             <form class="form">
                 <input type="text" placeholder="Enter Your Name" class="form-input">
@@ -39,6 +39,7 @@
             <button type="btn" class="btn">Proced to Payment</button>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
