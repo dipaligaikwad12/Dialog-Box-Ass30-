@@ -14,11 +14,11 @@ body{
     
 }
 .product-detail-container{
-    margin: 50px;
+    margin-top: 0px;
     margin-right:100px ;
 }
 .description{
-    font-size: 28px;
+    font-size: 25px;
     color: #993000;
 }
 .price{
